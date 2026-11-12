@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment (contains your Atlas credentials)
+server/.env
+.env
+client/.env
+
+# Build output
+client/dist/
+
+# Uploaded avatars (runtime data)
+server/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
